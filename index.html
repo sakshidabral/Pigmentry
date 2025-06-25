@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Color Harmony Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Color Harmony Checker</h1>
+
+    <div id="color-inputs">
+        <!-- Initial two pickers -->
+        <input type="color" class="color-picker" />
+        <input type="color" class="color-picker" />
+    </div>
+
+    <button onclick="addColorPicker()">+ Add Color</button>
+    <button onclick="checkHarmony()">Check Harmony</button>
+
+    <hr>
+    <h2>Generate Color Combinations from One Color</h2>
+
+    <input type="color" id="single-color" />
+    <button onclick="generateCombinations()">Generate Combinations</button>
+
+    <div id="combinations"></div>
+    <div id="result"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

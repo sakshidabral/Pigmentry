@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f7f7f7;
+}
+
+#color-inputs {
+  margin-bottom: 1rem;
+}
+
+.color-picker {
+  margin-right: 10px;
+}
